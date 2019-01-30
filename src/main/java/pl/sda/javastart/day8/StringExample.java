@@ -1,7 +1,7 @@
 package pl.sda.javastart.day8;
 
 public class StringExample {
-    private static String text = "12  , Adam, 1200";
+    private static String text = "12 , Adam, 1200";
 
     public static void main(String[] args) {
         String[] split = text.split(",");
