@@ -9,7 +9,6 @@ public class MethodsWithStars {
         pyramidWithStars(6);
 
     }
-
     private static void lineWithStars(int a) {
         System.out.println("Linia z gwiazdek");
         for (int i = 0; i < a; i++) {
@@ -17,7 +16,6 @@ public class MethodsWithStars {
         }
         System.out.println();
     }
-
     private static void rectangleWithStars(int a, int b) {
         System.out.println("Prostokąt z gwiazdek");
         for (int i = 0; i < a; i++) {
@@ -27,7 +25,6 @@ public class MethodsWithStars {
             System.out.println();
         }
     }
-
     private static void signX(int n) {
         System.out.println("Znak X z gwiazdek");
         for (int i = -n; i <= n; i++) {
@@ -51,7 +48,6 @@ public class MethodsWithStars {
             }
             System.out.println();
         }
-
     }
     private static void pyramidWithStars(int n) {
         System.out.println("Piramida z gwiazdek");
