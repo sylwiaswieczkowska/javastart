@@ -1,10 +1,12 @@
 package pl.sda.javastart.day4;
 
+import pl.sda.javastart.Homework.AnimalEx40.Human;
+import pl.sda.javastart.Homework.AnimalEx40.OwnerHolder;
 import pl.sda.javastart.day7.ColourEnum;
 
 import java.math.BigDecimal;
 
-public class Car{
+public class Car implements OwnerHolder {
     private ColourEnum colour;
     private String model;
     private String manufacture;
@@ -13,6 +15,21 @@ public class Car{
     private BigDecimal basePrice;
     private int doorNumber;
     private CarOption[] options;
+    private Human owner;
+
+    public Car() {
+    }
+    public Car(String model, String manufacture, int doorNumber, Human owner) {
+        this.model = model;
+        this.manufacture = manufacture;
+        this.doorNumber = doorNumber;
+        this.owner = owner;
+    }
+
+    @Override
+    public String getOwnerName() {
+        return "Imię właściciela: " + this.owner.getName();
+    }
 
     public BigDecimal summaryPrice() {
         BigDecimal result = basePrice;
