@@ -1,4 +1,4 @@
-package pl.sda.javastart.Homework.AnimalEx40;
+package pl.sda.javastart.Homework.AnimalEx_40;
 
 public class Pet extends Animal implements OwnerHolder {
     private Human owner;

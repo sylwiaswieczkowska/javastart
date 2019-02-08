@@ -1,4 +1,4 @@
-package pl.sda.javastart.Homework.AnimalEx40;
+package pl.sda.javastart.Homework.AnimalEx_40;
 
 public class Bird extends Pet {
     public Bird(String name, Double weight, Integer age, Human owner) {

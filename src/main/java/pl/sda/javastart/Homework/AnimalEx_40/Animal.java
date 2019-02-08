@@ -1,4 +1,4 @@
-package pl.sda.javastart.Homework.AnimalEx40;
+package pl.sda.javastart.Homework.AnimalEx_40;
 
 public  abstract class Animal {
     private String name;

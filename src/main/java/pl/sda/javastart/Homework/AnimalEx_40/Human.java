@@ -1,4 +1,4 @@
-package pl.sda.javastart.Homework.AnimalEx40;
+package pl.sda.javastart.Homework.AnimalEx_40;
 
 public class Human extends Mammal {
     public Human(String name, Double weight, Integer age) {

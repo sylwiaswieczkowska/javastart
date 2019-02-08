@@ -1,11 +1,11 @@
-package pl.sda.javastart.Homework.AnimalEx40;
+package pl.sda.javastart.Homework.AnimalEx_40;
 
 import pl.sda.javastart.day4.Car;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class OOP2 {
+public class OOP_3 {
     public static void main(String[] args) {
 
         animalsToString();

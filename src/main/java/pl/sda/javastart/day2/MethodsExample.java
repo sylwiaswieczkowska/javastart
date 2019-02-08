@@ -15,7 +15,7 @@ public class MethodsExample {
 
         System.out.println(rectangleCircuit(4,6));
         System.out.println(inchToMeter(20.5));
-        System.out.println(minutesToDateValue((60*24*365)));
+        System.out.println(minutesToDateValue((1052794)));
         System.out.println(sumThreeDigitsOfNumber(789));
         System.out.println(bmi(100, 190));
 
@@ -32,11 +32,11 @@ public class MethodsExample {
         double result = inches * 0.0254;
         return result;
     }
-    public static String minutesToDateValue(int minutes) { //todo
-        int h = minutes / 60;
+    public static String minutesToDateValue(int minutes) {
         int m = minutes % 60;
-        int d = minutes / (24 * 60);
-        int y = minutes / (d * 365);//fixme
+        int y = (minutes - m) /( 24 * 60 * 365);
+        int d = ((minutes - m )%(24 * 60 * 365 ))/(24*60);
+        int h = (minutes - (24 * 60 * d) -(y * 24 * 60 * 365) - m) / 60;
         return y + "y " + d + "d " + h + "h " + m + "m ";
     }
     public static int sumThreeDigitsOfNumber(int number) {

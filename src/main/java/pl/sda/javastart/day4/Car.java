@@ -1,7 +1,7 @@
 package pl.sda.javastart.day4;
 
-import pl.sda.javastart.Homework.AnimalEx40.Human;
-import pl.sda.javastart.Homework.AnimalEx40.OwnerHolder;
+import pl.sda.javastart.Homework.AnimalEx_40.Human;
+import pl.sda.javastart.Homework.AnimalEx_40.OwnerHolder;
 import pl.sda.javastart.day7.ColourEnum;
 
 import java.math.BigDecimal;
