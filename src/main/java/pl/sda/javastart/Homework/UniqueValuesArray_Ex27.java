@@ -30,7 +30,6 @@ public class UniqueValuesArray_Ex27 {
                 }
             }
         }
-
         int[] resultTab = new int[end];
         for (int i = 0; i < end; i++) {
           resultTab[i] = twoTable[i];

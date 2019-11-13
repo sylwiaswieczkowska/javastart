@@ -15,7 +15,7 @@ public class MethodsExample {
 
         System.out.println(rectangleCircuit(4,6));
         System.out.println(inchToMeter(20.5));
-        System.out.println(minutesToDateValue((1052794)));
+        System.out.println(minutesToDateValue(1052794));
         System.out.println(sumThreeDigitsOfNumber(789));
         System.out.println(bmi(100, 190));
 

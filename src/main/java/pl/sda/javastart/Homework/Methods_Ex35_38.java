@@ -45,11 +45,11 @@ public class Methods_Ex35_38 {
         }
         return sum - max;
     }
-    private static void rectangleMethod_Ex38(int width, int high) {
+    private static void rectangleMethod_Ex38(int width, int height) {
         System.out.println("Metoda wyświetlająca prostokąt z X.");
-        for (int i = 1; i <= high; i++) {
+        for (int i = 1; i <= height; i++) {
             for (int j = 1; j <= width; j++) {
-                if (i == 1 || i == high || j == 1 || j == width) {
+                if (i == 1 || i == height || j == 1 || j == width) {
                     System.out.print("X ");
                 } else {
                     System.out.print("  ");

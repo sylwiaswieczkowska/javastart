@@ -69,7 +69,7 @@ public class IfsExample {
         if (isAsleep) {
             return false;
         }
-        if (isMorning & !isMama) {
+        if (isMorning && !isMama) {
             return false;
         }
         return true;
